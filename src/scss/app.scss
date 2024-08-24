@@ -1,0 +1,12 @@
+@import "./reset";
+@import  "./variables";
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(99, 64, 38);
+}
+
+.photos {
+    display: flex;
+}

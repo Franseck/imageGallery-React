@@ -1,0 +1,45 @@
+@import "variables";
+
+
+
+
+
+.photos {
+width: 15rem;
+display: flex;
+flex-wrap: wrap;
+padding: 1rem;
+
+   
+}
+
+     .kapsa {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+text-align: center;
+align-items: center;
+padding: 2rem;
+
+  
+      }
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+         transition: all 0.3s ease;
+         border-radius: 2rem;
+        }
+          img:hover {
+            transform: scale(1.25);
+          }
+        
+      
+      .info {
+        font-size: 1rem;
+        padding: 0.5rem;
+color: $Teals-3;
+      }
+   
+  
